@@ -1,0 +1,163 @@
+/*contenu*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*le bar de navigation*/
+.navbar {
+    background-color: #C55394;
+    color: white;
+}
+
+/* pour separer les bar de navigation*/
+.main {
+display: flex;
+justify-content: space-between;
+align-items: center;
+overflow: hidden;
+}
+/* pour l'entête*/
+a {
+    text-decoration: none;
+    color: white;
+}
+.mandahatra {
+    display: inline-block;
+}
+.lien:hover {
+    background-color: #EB43A3;
+}
+.principe {
+    background-color: #EB43A3;
+}
+#logo {
+    font-family: "Courgette", cursive;
+    font-size: 20px;
+    padding: 0 10px;
+}
+ ul li {
+    font-size: 10px;
+ }
+
+.lien, .principe {
+    display: block;
+    padding: 20px;
+}
+/* le font blanc*/
+body {
+    background-image: url("img/background.png");
+    height: 100vh;
+}
+/*pour le contenu du page*/
+
+h1 {
+    text-align: center;
+    font-family: "Courgette", cursive;
+    color: #EB43A3;
+    background-image: url(img/rainbow.png);
+    background-size: cover;
+    width: max-content;
+    margin: 10px auto 0 auto;
+    border: 20px;
+    padding: 30px 30px;
+}
+
+#anatiny {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    box-shadow: 10px 10px 100px 5px rgba(0, 0, 0, 0.76);
+    padding: 20px;
+}
+.etoile {
+    color: #EB43A3;
+    font-size: 20px;
+    margin: 5px;
+}
+.lohany {
+    display: flex;
+    align-items: center;
+    font-family: "Courgette", cursive;
+    color: #EB43A3;
+}
+.sary {
+    display: flex;
+    width: 100%;
+}
+
+.sary img {
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.sary img:hover {
+    transform: scale(1.1);
+}
+
+figure {
+    overflow: hidden;
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.705);
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+/*pour diffuser en 2 colone sur le map et l'email*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-column-gap: 5px;
+}
+/*pour l'email*/
+input[type=email], select {
+    width: 30%;
+    padding: 5px;
+    margin:auto;
+    border: 2px rgba(0, 0, 0, 0.281) solid;
+    border-radius: 2px;
+
+}
+input[type=submit], select{
+    width: 20%;
+    padding: 5px;
+    background-color: #EB43A3;
+    color: white;
+    border: 1px white solid;
+    border-radius: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.farany {
+    color:#EB43A3 ;
+    font-size: 20px ;
+    font-family: "Courgette", cursive;
+}
+/*le footer*/
+.footer {
+    background-color: #C55394;
+    padding: 10px;
+    text-align: right;
+    align-items: center;
+    color: white;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
