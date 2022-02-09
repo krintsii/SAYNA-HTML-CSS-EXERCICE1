@@ -98,6 +98,7 @@ h1 {
 figure {
     overflow: hidden;
     position: relative;
+    margin: 5px;
 }
 
 figcaption {
@@ -107,7 +108,7 @@ figcaption {
     bottom: 0;
     text-align: center;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 /*pour diffuser en 2 colone sur le map et l'email*/
 .grid{
